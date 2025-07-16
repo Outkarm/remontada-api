@@ -82,4 +82,4 @@ production:
   database: remontada_api_production
   username: remontada_api
   password: <%= ENV["REMONTADA_API_DATABASE_PASSWORD"] %>
-  url: <%= ENV["DATABASE_URL"] %>
+  url: //your_local_user:password@localhost/remontada_api_production
