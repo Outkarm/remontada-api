@@ -9,7 +9,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:5173'  # 👈 or '*' for testing only
+    origins 'http://localhost:5173', 'https://remontada-baej.onrender.com'
 
     resource '*',
       headers: :any,
